@@ -5,8 +5,8 @@ function verificarPar(numero){
         console.log("impar")
     }
 }
-verificarPar(12);
-verificarPar(2)
+//verificarPar(12);
+//verificarPar(2)
 
 
 
@@ -31,4 +31,9 @@ function calcular(n1, n2){
 
 //calcular( n1,n2);
 
-
+let numero = 10;
+let delay =0;
+while (numero >=1){
+    console.log(numero);
+    numero--;
+}
