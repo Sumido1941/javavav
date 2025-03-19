@@ -1,3 +1,19 @@
+function verificarPar(numero){
+    if (numero % 2 === 0){
+        console.log("Par");
+    } else {
+        console.log("impar")
+    }
+}
+verificarPar(12);
+verificarPar(2)
+
+
+
+
+
+
+
 function calcular(n1, n2){
     const soma = n1 + n2;
     const subtracao = n1 - n2;
@@ -10,7 +26,9 @@ function calcular(n1, n2){
     console.log(multiplicacao);
 }
 
-let n1 = parseFloat(prompt("digite seu primeiro numero"));
-let n2 = parseFloat(prompt("digite seu segundo numero"));
+//let n1 = parseFloat(prompt("digite seu primeiro numero"));
+//let n2 = parseFloat(prompt("digite seu segundo numero"));
 
-calcular( n1,n2);
+//calcular( n1,n2);
+
+
