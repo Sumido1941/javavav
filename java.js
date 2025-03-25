@@ -31,10 +31,15 @@ function calcular(n1, n2){
 
 //calcular( n1,n2);
 
-let numero = 10;
+let numero = 100;
 let delay =0;
 while (numero >=1){
-    console.log(numero);
-    numero--;
-
+    //console.log(numero);
+    //numero--;
 }
+function inverterTexto(texto) {
+    return texto.split('').reverse().join('');
+}
+
+// Exemplo de uso
+console.log(inverterTexto("JavaScript")); // Saída: "tpircSavaJ"
